@@ -3,41 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Portfolio</title>
+    <title>Interactive Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="navbar">
+        <div>My Portfolio</div>
+        <div>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
     <div class="hero">
-        <h1>Welcome to My Portfolio</h1>
+        <h1>Welcome to My Interactive Portfolio</h1>
     </div>
 
-    <div class="section">
+    <div class="section" id="about">
         <h2 class="section-title">About Me</h2>
-        <p>Hello! I'm a passionate developer who loves creating modern, interactive websites.</p>
+        <p>I am a creative developer with a passion for building beautiful, functional websites and interactive experiences.</p>
+        <button class="btn">Learn More</button>
     </div>
 
-    <div class="section">
-        <h2 class="section-title">Projects</h2>
+    <div class="section" id="projects">
+        <h2 class="section-title">My Projects</h2>
         <div class="card">
-            <img src="https://source.unsplash.com/random/300x200" alt="Project Image">
-            <h3>Project Title</h3>
-            <p>A brief description of this amazing project.</p>
+            <img src="https://source.unsplash.com/random/300x200" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>An innovative project that solves real-world problems.</p>
         </div>
         <div class="card">
-            <img src="https://source.unsplash.com/random/300x200" alt="Project Image">
-            <h3>Project Title</h3>
-            <p>A brief description of this amazing project.</p>
+            <img src="https://source.unsplash.com/random/300x200" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>A cutting-edge solution built with modern technologies.</p>
         </div>
     </div>
 
-    <div class="section">
-        <h2 class="section-title">Contact</h2>
-        <p>Feel free to reach out via email: <a href="mailto:someone@example.com">someone@example.com</a></p>
+    <div class="section" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <p>Have a question or want to work together? <a href="mailto:someone@example.com">Email me!</a></p>
     </div>
 
     <footer>
-        &copy; 2025 My Portfolio | All rights reserved
+        &copy; 2025 Interactive Portfolio | Designed with love
     </footer>
 </body>
 </html>
