@@ -54,6 +54,12 @@
     <section id="contact">
         <h2>Kontakt</h2>
         <p>Erreiche mich unter: <a href="mailto:Swifteridu@gmail.com">Swifteridu@gmail.com</a></p>
+        <form action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Dein Name" required>
+            <input type="email" name="email" placeholder="Deine E-Mail" required>
+            <textarea name="message" placeholder="Deine Nachricht" required></textarea>
+            <button type="submit">Senden</button>
+        </form>
     </section>
 
     <footer>
