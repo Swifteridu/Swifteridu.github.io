@@ -1,0 +1,103 @@
+/* Grundstil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #ff6600;
+    padding: 1rem 2rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #333;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ff6600;
+}
+
+/* Sektionen */
+section {
+    padding: 2rem 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+}
+
+section h2 {
+    color: #ff6600;
+    margin-bottom: 1rem;
+}
+
+/* Projekte */
+.project {
+    background-color: #222;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+/* Skills */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background-color: #222;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+
+/* Kontakt */
+#contact a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #222;
+    margin-top: 2rem;
+}
