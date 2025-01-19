@@ -42,6 +42,17 @@ body {
     background: #f0f0f0;
 }
 
+.section:nth-child(1)::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: linear-gradient(to top, #ffffff, #6a11cb);
+    z-index: 1;
+}
+
 .section-title {
     font-size: 2.5rem;
     margin-bottom: 20px;
