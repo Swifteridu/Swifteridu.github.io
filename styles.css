@@ -5,8 +5,7 @@ body {
     background: #f7f7f7;
     overflow-x: hidden;
     overflow: scroll;
-    scrollbar-width: none; /* For Firefox */
-    display: none; /* For Chrome, Edge, and Safari */
+    scrollbar-width: none;
 }
 
 .hero {
