@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title data-i18n="meta.title"></title>
+  <meta name="description" content="" data-i18n-content="meta.description">
+  <link rel="canonical" href="https://swifteridu.me/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://swifteridu.me/">
+  <meta property="og:title" content="" data-i18n-content="meta.title">
+  <meta property="og:description" content="" data-i18n-content="meta.description">
+  <meta property="og:locale" content="" data-i18n-content="meta.ogLocale">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="style.css">
+  <script src="content.js" defer></script>
+  <script src="scripts/core.js" defer></script>
+  <script src="scripts/i18n.js" defer></script>
+  <script src="scripts/render.js" defer></script>
+  <script src="scripts/github.js" defer></script>
+  <script src="scripts/interactions.js" defer></script>
+  <script src="scripts/effects.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip"></a>
+  <canvas class="ambient" id="ambient" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#top" aria-label="" data-i18n-aria="brand.name">
+        <span data-i18n="brand.mark"></span>
+        <span class="wordmark-dot" aria-hidden="true"></span>
+      </a>
+      <nav class="main-nav" aria-label="" data-i18n-aria="nav.label">
+        <a href="#about" data-i18n="nav.about"></a>
+        <a href="#skills" data-i18n="nav.skills"></a>
+        <a href="#projects" data-i18n="nav.projects"></a>
+        <a href="#journey" data-i18n="nav.journey"></a>
+        <a href="#contact" data-i18n="nav.contact"></a>
+      </nav>
+      <div class="header-tools">
+        <div class="language-switch" role="group" aria-label="" data-i18n-aria="header.languageLabel">
+          <button type="button" data-language="de" data-i18n="languages.de" aria-pressed="false"></button>
+          <span aria-hidden="true">/</span>
+          <button type="button" data-language="en" data-i18n="languages.en" aria-pressed="false"></button>
+        </div>
+        <button class="icon-button theme-button" id="theme-toggle" type="button" aria-label="" title="" data-i18n-aria="header.themeLabel" data-i18n-title="header.themeLabel">
+          <svg class="theme-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+        </button>
+        <button class="palette-trigger" id="palette-open" type="button" aria-label="" title="" data-i18n-aria="header.paletteLabel" data-i18n-title="header.paletteLabel">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7"></circle><path d="m8 7 4 3-4 3"></path></svg>
+          <span class="shortcut" data-i18n="header.shortcut"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="hero.eyebrow"></span></p>
+        <h1 id="hero-title"><span data-i18n="hero.firstName"></span><br><span data-i18n="hero.lastName"></span><span>.</span></h1>
+        <p class="hero-role" data-i18n="hero.role"></p>
+        <p class="hero-pitch" data-i18n="hero.pitch"></p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects"><span data-i18n="hero.projectsButton"></span><span aria-hidden="true">↘</span></a>
+          <a class="button button-quiet" href="#contact" data-i18n="hero.contactButton"></a>
+          <button class="terminal-trigger" id="terminal-open" type="button" aria-label="" title="" data-i18n-aria="header.terminalLabel" data-i18n-title="header.terminalLabel">
+            <span aria-hidden="true">›_</span><span data-i18n="hero.terminalButton"></span>
+          </button>
+        </div>
+        <div class="hero-proof">
+          <span class="proof-dot" aria-hidden="true"></span>
+          <span data-i18n="hero.proof"></span>
+        </div>
+      </div>
+      <aside class="hero-art" aria-label="" data-i18n-aria="hero.artLabel">
+        <div class="portrait-stage">
+          <span class="portrait-sun" aria-hidden="true"></span>
+          <span class="portrait-spark portrait-spark-one" aria-hidden="true">✳</span>
+          <span class="portrait-spark portrait-spark-two" aria-hidden="true">✦</span>
+          <div class="art-portrait">
+            <img src="imgs/Swifteridu.png" alt="" width="500" height="500" decoding="async">
+          </div>
+          <span class="portrait-sticker"><i aria-hidden="true"></i><span data-i18n="hero.available"></span></span>
+        </div>
+        <p class="portrait-caption" data-i18n="hero.artBottom"></p>
+      </aside>
+      <a class="scroll-cue" href="#about" aria-label="" data-i18n-aria="hero.scrollLabel"><span aria-hidden="true">↓</span><span data-i18n="hero.scrollText"></span></a>
+    </section>
+
+    <section class="content-section section-shell" id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="section-index">01 / <span data-i18n="about.index"></span></p>
+        <h2 id="about-title"><span data-i18n="about.titleFirst"></span><br><span data-i18n="about.titleSecond"></span></h2>
+      </div>
+      <div class="about-layout">
+        <p class="about-lead" data-i18n="about.lead"></p>
+        <div class="about-detail">
+          <p data-i18n="about.body"></p>
+          <div class="about-facts">
+            <div class="fact"><span data-i18n="about.factLocationLabel"></span><strong data-i18n="about.factLocation"></strong></div>
+            <div class="fact"><span data-i18n="about.factFocusLabel"></span><strong data-i18n="about.factFocus"></strong></div>
+            <div class="fact"><span data-i18n="about.factStatusLabel"></span><strong data-i18n="about.factStatus"></strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading section-heading-row">
+        <div><p class="section-index">02 / <span data-i18n="skills.index"></span></p><h2 id="skills-title" data-i18n="skills.title"></h2></div>
+        <p class="section-note" data-i18n="skills.note"></p>
+      </div>
+      <div class="skill-groups" id="skill-groups"></div>
+    </section>
+
+    <section class="content-section projects-section section-shell" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading section-heading-row">
+        <div><p class="section-index">03 / <span data-i18n="projects.index"></span></p><h2 id="projects-title" data-i18n="projects.title"></h2></div>
+        <div class="project-heading-meta"><span id="project-count"></span><span class="summary-rule"></span><span data-i18n="projects.note"></span></div>
+      </div>
+      <div class="project-grid" id="project-grid"></div>
+    </section>
+
+    <section class="content-section section-shell" id="journey" aria-labelledby="journey-title">
+      <div class="section-heading section-heading-row">
+        <div><p class="section-index">04 / <span data-i18n="journey.index"></span></p><h2 id="journey-title" data-i18n="journey.title"></h2></div>
+        <p class="section-note" data-i18n="journey.note"></p>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section class="contact-section section-shell" id="contact" aria-labelledby="contact-title">
+      <div class="contact-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
+      <p class="section-index">05 / <span data-i18n="contact.index"></span></p>
+      <h2 id="contact-title"><span data-i18n="contact.titleFirst"></span><br><span data-i18n="contact.titleSecond"></span></h2>
+      <p class="contact-copy" data-i18n="contact.body"></p>
+      <div class="contact-links" id="contact-links"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <a class="wordmark footer-mark" href="#top" aria-label="" data-i18n-aria="brand.name"><span data-i18n="brand.mark"></span><span class="wordmark-dot" aria-hidden="true"></span></a>
+    <p data-i18n="footer.note"></p>
+    <a class="back-top" href="#top"><span data-i18n="footer.backTop"></span><span aria-hidden="true">↑</span></a>
+  </footer>
+
+  <dialog class="command-dialog" id="command-dialog" aria-labelledby="palette-title">
+    <div class="dialog-head"><div><p class="dialog-kicker" data-i18n="palette.kicker"></p><h2 id="palette-title" data-i18n="palette.title"></h2></div><button class="dialog-close" type="button" data-close-dialog="command-dialog" aria-label="" data-i18n-aria="a11y.close"><span aria-hidden="true">×</span></button></div>
+    <label class="sr-only" for="palette-search" data-i18n="palette.searchLabel"></label>
+    <div class="palette-search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5"></circle><path d="m12.5 12.5 4 4"></path></svg><input id="palette-search" type="search" autocomplete="off" aria-label="" data-i18n-aria="palette.searchLabel" data-i18n-placeholder="palette.searchPlaceholder"></div>
+    <p class="palette-hint" data-i18n="palette.hint"></p>
+    <div class="palette-list" id="palette-list"></div>
+    <div class="palette-footer"><span data-i18n="palette.footer"></span><span><kbd>↑</kbd><kbd>↓</kbd> <kbd>↵</kbd></span></div>
+  </dialog>
+
+  <dialog class="terminal-dialog" id="terminal-dialog" aria-labelledby="terminal-title">
+    <div class="dialog-head"><div><p class="dialog-kicker" data-i18n="terminal.kicker"></p><h2 id="terminal-title" data-i18n="terminal.title"></h2></div><button class="dialog-close" type="button" data-close-dialog="terminal-dialog" aria-label="" data-i18n-aria="a11y.close"><span aria-hidden="true">×</span></button></div>
+    <div class="terminal-window">
+      <div class="terminal-chrome" aria-hidden="true"><i></i><i></i><i></i><span data-i18n="terminal.chrome"></span></div>
+      <div class="terminal-output" id="terminal-output" role="log" aria-live="polite"></div>
+      <form class="terminal-form" id="terminal-form">
+        <label class="terminal-prompt" for="terminal-input" data-i18n="terminal.prompt"></label>
+        <input id="terminal-input" name="command" type="text" autocomplete="off" spellcheck="false" aria-label="" data-i18n-aria="terminal.inputLabel" data-i18n-placeholder="terminal.inputPlaceholder">
+      </form>
+    </div>
+    <p class="terminal-footnote" data-i18n="terminal.footnote"></p>
+  </dialog>
+
+  <script type="application/ld+json" id="structured-data"></script>
+</body>
+</html>
