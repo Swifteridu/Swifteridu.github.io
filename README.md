@@ -5,6 +5,8 @@ A bilingual, mobile-first portfolio and interactive résumé built with plain HT
 ## Files
 
 - index.html - accessible page structure and metadata
+- og-image.png - 1200×630 social preview card based on the hero design
+- favicon.png - circular portrait icon for browser tabs
 - style.css - layout, themes, responsive rules, and print résumé
 - app.js - small startup file that initializes the modules
 - content.js - all German and English copy, skills, project details, timeline, links, and fallback messages

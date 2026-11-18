@@ -3,7 +3,8 @@ window.PORTFOLIO_CONTENT = {
     meta: {
       title: "Zakaria Sbihi - Spieleentwickler & Junior-Softwareentwickler",
       description: "Portfolio und interaktiver Lebenslauf von Zakaria Sbihi, Spieleentwickler / Junior-Softwareentwickler.",
-      ogLocale: "de_DE"
+      ogLocale: "de_DE",
+      ogImageAlt: "Porträt von Zakaria Sbihi neben seiner Vorstellung als Spieleentwickler und Junior-Softwareentwickler"
     },
     a11y: { skip: "Zum Inhalt springen", close: "Dialog schließen" },
     brand: { mark: "ZS", name: "Zur Startseite von Zakaria Sbihi" },
@@ -164,7 +165,8 @@ window.PORTFOLIO_CONTENT = {
     meta: {
       title: "Zakaria Sbihi - Game Developer & Junior Software Engineer",
       description: "Portfolio and interactive résumé of Zakaria Sbihi, Game Developer / Junior Software Engineer.",
-      ogLocale: "en_US"
+      ogLocale: "en_US",
+      ogImageAlt: "Portrait of Zakaria Sbihi alongside his Game Developer and Junior Software Engineer introduction"
     },
     a11y: { skip: "Skip to content", close: "Close dialog" },
     brand: { mark: "ZS", name: "Back to Zakaria Sbihi's home page" },
